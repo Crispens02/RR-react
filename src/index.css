@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #080808;    
+ }
+ 
+ @font-face {
+   font-family: Minimal;
+   src: url("./assets/fonts/minimal.otf");
+}
+
+ 
+ 
+ header{
+    width: 100%;
+    height: 100vh;
+    background: url("./assets/img/bg2.jpg") no-repeat center center/cover;
+   }
+ 
+ 
+   .logo-text{
+      font-family: Minimal;
+      top: 5.4rem;
+   }
+   
+   .title{
+      text-shadow: 4px 6px 1px rgba(255,255,255,0.21);
+   }
+   
+
+ body{
+     font-family: 'Montserrat', sans-serif;}
+ 
+
+   
