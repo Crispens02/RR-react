@@ -2,7 +2,7 @@ import './Navbar.css';
 import React from 'react'
 import Navbar from "./Navbar"
 import {Link} from "react-router-dom"
-
+const IMAGE_BASE_PATH = "src/assets/img";
 function Gallery() {
     const align = {
         textAlign:'center'
@@ -18,18 +18,18 @@ function Gallery() {
         <div className="flex flex-wrap w-full">
           <div className="w-full md:w-1/3 p-1 md:p-2">  
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0029.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0029.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0050.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0050.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0061.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0061.jpg`}/>
           </div>
         </div>
       </div>
@@ -37,18 +37,18 @@ function Gallery() {
         <div className="flex flex-wrap w-full">
           <div className="w-full md:w-1/3 p-1 md:p-2">
             <img alt="chencho facha"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0022.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0022.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0019.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0019.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0111.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0111.jpg`}/>
           </div>
         </div>
       </div>
@@ -57,18 +57,18 @@ function Gallery() {
         <div className="flex flex-wrap w-full">
           <div className="w-full md:w-1/3 p-1 md:p-2">
             <img alt="chencho facha"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0025.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0025.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0114.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0114.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0006.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+             src={`${IMAGE_BASE_PATH}/_REN0006.jpg`}/>
           </div>
         </div>
       </div>
@@ -87,3 +87,4 @@ function Gallery() {
 }
 
 export default Gallery
+

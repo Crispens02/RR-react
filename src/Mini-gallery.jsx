@@ -1,21 +1,20 @@
-import {Link} from "react-router-dom"
-import './Mini-gallery.css'
-import Navbar from "./Navbar"
-const align = {
-  textAlign:'center'
-}
+import { Link } from "react-router-dom";
+import "./Mini-gallery.css";
+import Navbar from "./Navbar";
 
+
+const align = {
+  textAlign: "center"
+};
+
+const IMAGE_BASE_PATH = "src/assets/img";
 
 function Minigallery() {
 
   
   return (
-    <div>
-    <header>
-    <Navbar/>
-    </header>
-      
-    
+    <>
+   <header><Navbar /></header>
     <section className="overflow-hidden my-6 pb-4">
    
     <div className="container px-5 py-2 mx-auto">
@@ -23,18 +22,19 @@ function Minigallery() {
         <div className="flex flex-wrap w-full">
           <div className="w-full md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0003.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+              src={`${IMAGE_BASE_PATH}/_REN0003.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0006.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+              src={`${IMAGE_BASE_PATH}/_REN0006.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
+            
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0008.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+              src={`${IMAGE_BASE_PATH}/_REN0008.jpg`}/>
           </div>
         </div>
       </div>
@@ -42,18 +42,18 @@ function Minigallery() {
         <div className="flex flex-wrap w-full">
           <div className="w-full md:w-1/3 p-1 md:p-2">
             <img alt="chencho facha"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0016.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+              src={`${IMAGE_BASE_PATH}/_REN0016.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0013.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+              src={`${IMAGE_BASE_PATH}/_REN0013.jpg`}/>
           </div>
           <div className="w-1/2 md:w-1/3 p-1 md:p-2">
             <img alt="gallery"
-              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 shadow-sm hover:shadow-gray-700/25"
-              src="src\assets\img\_REN0015.jpg"/>
+              className="block object-cover object-center w-full h-full cursor-pointer transition ease-in-out hover:scale-95 "
+              src={`${IMAGE_BASE_PATH}/_REN0015.jpg`}/>
           </div>
         </div>
       </div>
@@ -65,9 +65,10 @@ function Minigallery() {
       </div>
     </div>
   </section>
-  </div>
+  </>
 
   )
 }
 
-export default Minigallery
+export default Minigallery 
+ 
