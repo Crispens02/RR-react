@@ -19,7 +19,7 @@ function Contact() {
               Contacta con nosotros
             </h2>
             <p className="text-body-color mb-9 text-base leading-relaxed">
-                Si estas interesado en contratarnos, te dejamos nuestras redes para que puedas hablarnos.
+                Si estas interesado en contratarnos, te dejamos nuestro contacto que puedas hablarnos.
             </p>
             <div className="mb-8 flex w-full max-w-[370px]">
               <div
@@ -41,6 +41,7 @@ function Contact() {
                 <p className="text-body-color text-base">
                   Paraná, Entre Rios.
                 </p>
+                
               </div>
             </div>
             <div className="mb-8 flex w-full max-w-[370px]">
@@ -67,6 +68,7 @@ function Contact() {
               <div className="w-full">
                 <h4 className="text-dark mb-1 text-xl font-bold">telefono</h4>
                 <p className="text-body-color text-base">+54 9 3435 33-1364</p>
+                <p className="text-body-color text-base">+54 9 3435 02-4761</p>
               </div>
             </div>
             <div className="mb-8 flex w-full max-w-[370px]">
@@ -86,7 +88,7 @@ function Contact() {
               </div>
               <div className="w-full">
                 <h4 className="text-dark mb-1 text-xl font-bold">Direccion de correo electronico</h4>
-                <p className="text-body-color text-base">Renzotreppo@gmail.com</p>
+                <p className="text-body-color text-base">rr.fotografia.info@gmail.com</p>
               </div>
             </div>
           </div>

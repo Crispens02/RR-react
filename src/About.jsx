@@ -12,7 +12,7 @@ function About() {
                 <h1
                     className="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                     SOBRE NOSOTROS</h1>
-                <p className="text-body-color mb-9 text-base leading-relaxed">Romina Bolzan, Renzo Treppo.</p>
+                <p className="text-body-color mb-9 text-base leading-relaxed">Romina Bolzan, Renzo Treppo. Servicio de fotografia para todo tipo de eventos.</p>
             </div>
             <img src="src\assets\img\renzoromina.png" />
         </section>
