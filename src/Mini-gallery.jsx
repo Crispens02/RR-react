@@ -17,9 +17,9 @@ const images = [
     h: 5640,
   },
   {
-    src: `${IMG_PATH}/_REN0006.jpg`,
-    w: 5873,
-    h: 3441,
+    src: `${IMG_PATH}/_REN0027.jpg`,
+    w: 3558,
+    h: 5337,
   },
   {
     src: `${IMG_PATH}/_REN0008.jpg`,

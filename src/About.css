@@ -1,0 +1,9 @@
+.reverse{
+    flex-Direction: row-reverse;
+     align-items: center
+}
+
+.navs {
+    margin-top: 4px;
+}
+

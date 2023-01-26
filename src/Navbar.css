@@ -1,27 +1,30 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
-    
-    .Cabecera-nav{
-        width:100%;
+
+    .Cabecera-nav {
+        width: 100%;
         height: 0vh;
         display: flex;
         flex-flow: column nowrap;
         justify-content: start;
         align-items: center;
-        height:0vh;
+        height: 0vh;
         opacity: 0;
         overflow: hidden;
         transition: all .6s ease;
     }
-    .Cabecera-nav.isActive{
-        height:40vh;
+
+    .Cabecera-nav.isActive {
+        height: 40vh;
         opacity: 1;
         pointer-events: auto;
     }
-    .Cabecera-ul{
+
+    .Cabecera-ul {
         flex-direction: column;
     }
-    .Cabecera-li{
+
+    .Cabecera-li {
         margin: .5em 0;
     }
 }

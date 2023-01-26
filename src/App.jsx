@@ -9,19 +9,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-  
- <Routes>
-  <Route path ="/" element ={ <Minigallery/>}/>
-  <Route path ="/contact" element ={ <Contact/>}/>
-  <Route path ="/about" element ={ <About/>}/>
-  <Route path ="/gallery" element ={ <Gallery/>}/>
- </Routes>
-     
+      <Routes>
+        <Route path="/" element={<Minigallery />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
+      </Routes>
     </BrowserRouter>
   );
 }
-
-
-
 
 export default App;
